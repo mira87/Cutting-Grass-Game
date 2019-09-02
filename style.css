@@ -1,0 +1,50 @@
+main{
+    width:100%;
+    overflow: auto;
+}
+
+section{
+    width:50%;
+    float: left;
+    height: 500px;
+
+}
+
+.left-panel{
+    background-image:url('/Users/shamirajones/Desktop/practice/tryit/AdobeStock_93890018 copy.jpeg');
+    background-size: cover;
+
+}
+
+.right-panel{
+    background-color:#ff7a42;
+}
+
+h1{
+    text-align: center;
+}
+
+.score_holder{
+    background-color: black;
+    color:#ff7a42;
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    height: 4em;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cut{
+    width:20%;
+    float: left;
+
+}
+
+img{
+    width:250px;
+    height: 211px;;
+}
