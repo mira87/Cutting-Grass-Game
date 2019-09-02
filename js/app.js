@@ -3,7 +3,7 @@ var scissorsImg=document.querySelector('.rusty_scissors');
 var fancymowerImg=document.querySelector('.fancyMower');
 var studentsImg=document.querySelector('.students');
 var teethImg=document.querySelector(".teeth");
-teethImg.src="teeth.png";
+teethImg.src="./images/teeth.png";
 var bankAccount=0;
 var tools=["teeth"];
 
@@ -49,7 +49,7 @@ function changeIt(){
             if (buyIt==="yes"){
                 bankAccount-=5;
                 tools.push("scissors");
-                scissorsImg.src="old-rusty-scissors-isolated-on-260nw-398253913.jpg";
+                scissorsImg.src="./images/old-rusty-scissors-isolated-on-260nw-398253913.jpg";
 
             }
             else{
@@ -66,7 +66,7 @@ function changeIt(){
             if (buylawnMower==="yes"){
                 bankAccount-=25;
                 tools.push("lawnmower");
-                lawnMowerImg.src="71oOjUF636L._SY550_.jpg";
+                lawnMowerImg.src="./images/71oOjUF636L._SY550_.jpg";
 
             }
             else{alert('error');
@@ -83,7 +83,7 @@ function changeIt(){
                 tools.push("Fancy Mower");
             }
 
-            fancymowerImg.src="co17_3749s_HD_22298_34r-1600x1369.jpg";
+            fancymowerImg.src="./images/co17_3749s_HD_22298_34r-1600x1369.jpg";
 
         
     }
@@ -95,7 +95,7 @@ function changeIt(){
             if (team==="yes"){
                 bankAccount-=500;
                 tools.push("Starving Students");
-                studentsImg.src="starving_students.jpg";
+                studentsImg.src="./images/starving_students.jpg";
 
             }
         
@@ -144,7 +144,7 @@ function scissorsIt(){
             if (lawnmowerTool==="yes"){
                 bankAccount-=25;
                 tools.push("lawnmower");
-                lawnMowerImg.src="71oOjUF636L._SY550_.jpg";
+                lawnMowerImg.src="./images/71oOjUF636L._SY550_.jpg";
 
             }
         
@@ -164,7 +164,7 @@ function scissorsIt(){
                 tools.push("Fancy Mower");
             }
 
-            fancymowerImg.src="co17_3749s_HD_22298_34r-1600x1369.jpg";
+            fancymowerImg.src="./images/co17_3749s_HD_22298_34r-1600x1369.jpg";
 
         
     }
@@ -177,7 +177,7 @@ function scissorsIt(){
             if (scissorsTeam==="yes"){
                 bankAccount-=500;
                 tools.push("Starving Students");
-                studentsImg.src="starving_students.jpg";
+                studentsImg.src="./images/starving_students.jpg";
 
             }
         
@@ -221,7 +221,7 @@ console.log(tools);
                 tools.push("Fancy Mower");
             }
 
-            fancymowerImg.src="co17_3749s_HD_22298_34r-1600x1369.jpg";
+            fancymowerImg.src="./images/co17_3749s_HD_22298_34r-1600x1369.jpg";
 
         
     }
@@ -237,7 +237,7 @@ console.log(tools);
             if (struggleteam==="yes"){
                 bankAccount-=500;
                 tools.push("Starving Students");
-                studentsImg.src="starving_students.jpg";
+                studentsImg.src="./images/starving_students.jpg";
 
             }
         
@@ -287,7 +287,7 @@ function fancyMow(){
             if (myTeam==="yes"){
                 bankAccount-=500;
                 tools.push("Starving Students");
-                studentsImg.src="starving_students.jpg";
+                studentsImg.src="./images/starving_students.jpg";
 
             }
         
@@ -333,7 +333,7 @@ if(bankAccount>=250 && bankAccount<500 && tools.includes("Fancy Mower")===!true)
             tools.push("Fancy Mower");
         }
 
-        fancymowerImg.src="co17_3749s_HD_22298_34r-1600x1369.jpg";
+        fancymowerImg.src="./images/co17_3749s_HD_22298_34r-1600x1369.jpg";
 
     
 }
@@ -348,7 +348,7 @@ if(bankAccount>=250 && bankAccount<500 && tools.includes("Fancy Mower")===!true)
             if (myTeam==="yes"){
                 bankAccount-=500;
                 tools.push("Starving Students");
-                studentsImg.src="starving_students.jpg";
+                studentsImg.src="./images/starving_students.jpg";
 
             }
         
